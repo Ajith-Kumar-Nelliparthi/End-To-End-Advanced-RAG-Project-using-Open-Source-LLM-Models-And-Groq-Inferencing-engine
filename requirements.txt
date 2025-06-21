@@ -1,0 +1,14 @@
+langchain
+langchain-community
+langchain-groq
+openai
+chromadb
+faiss-cpu
+sentence-transformers
+beautifulsoup4
+cassio
+python-dotenv
+fastapi
+uvicorn
+tiktoken
+FlagEmbedding
