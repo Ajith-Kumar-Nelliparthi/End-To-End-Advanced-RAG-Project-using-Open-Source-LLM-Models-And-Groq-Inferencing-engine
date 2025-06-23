@@ -1,5 +1,5 @@
 # Complete RAG Project
-
+![alt text](img.png)
 A production-ready Retrieval-Augmented Generation (RAG) system built with FastAPI, LangChain, HuggingFace, Groq LLM, and AstraDB (Cassandra) vector store. This project demonstrates how to ingest web content, embed documents, store and retrieve them using a vector database, and answer user questions via a REST API.
 
 ---
