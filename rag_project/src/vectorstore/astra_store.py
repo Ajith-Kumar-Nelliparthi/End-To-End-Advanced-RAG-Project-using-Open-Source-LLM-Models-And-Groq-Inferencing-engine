@@ -1,7 +1,7 @@
 import cassio
-from langchain.vectorstores.cassandra import Cassandra
+from langchain_community.vectorstores import Cassandra
 from langchain.indexes.vectorstore import VectorStoreIndexWrapper
-from config.settings import settings
+from rag_project.config.settings import settings
 
 def create_vector_index(docs, embedder):
     """

@@ -1,9 +1,9 @@
 from fastapi import FastAPI, Query
-from src.embeddings.embedder import get_embedder
-from src.ingestion.loader import load_and_split
-from src.vectorstore.astra_store import create_vector_index
-from src.llm.groq_llm import get_llm
-from src.pipeline.rag_chain import build_rag_chain
+from rag_project.src.embeddings.embedder import get_embedder
+from rag_project.src.ingestion.loader import load_and_split
+from rag_project.src.vectorstore.astra_store import create_vector_index
+from rag_project.src.llm.groq_llm import get_llm
+from rag_project.src.pipeline.rag_chain import build_rag_chain
 
 app = FastAPI()
 

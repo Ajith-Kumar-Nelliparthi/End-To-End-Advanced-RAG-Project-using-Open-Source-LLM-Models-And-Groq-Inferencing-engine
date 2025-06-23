@@ -1,8 +1,8 @@
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 import torch 
-from config.settings import settings
+from rag_project.config.settings import settings
 
-def get_embeddings():
+def get_embedder():
     """
     Initialize and return the HuggingFace embeddings model.
     """
