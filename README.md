@@ -1,6 +1,3 @@
-Ajith-Kumar-Nelliparthi: create a professional readme for this project u have full accesss to the code see it and update the readme accordingly
-
-Workspace: Collecting workspace information```markdown
 # Complete RAG Project
 
 A production-ready Retrieval-Augmented Generation (RAG) system built with FastAPI, LangChain, HuggingFace, Groq LLM, and AstraDB (Cassandra) vector store. This project demonstrates how to ingest web content, embed documents, store and retrieve them using a vector database, and answer user questions via a REST API.
@@ -133,6 +130,3 @@ This project is licensed under the [GNU GPL v3](LICENSE).
 - [HuggingFace](https://huggingface.co/)
 - [AstraDB / CassIO](https://cassio.org/)
 - [FastAPI](https://fastapi.tiangolo.com/)
-
----
-```
